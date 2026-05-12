@@ -17,7 +17,6 @@ def resource_path(relative_path):
 
 ffmpeg_path = resource_path("ffmpeg.exe")
 ffprobe_path = resource_path("ffprobe.exe")
-
 class ConverterGUI:
     def __init__(self, root):
         self.root = root
